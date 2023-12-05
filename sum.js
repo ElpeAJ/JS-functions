@@ -19,3 +19,4 @@ function sumNumbersBtn(num1, num2) {
 console.log(sumNumbersBtn(1, 10));
 console.log(sumNumbersBtn(1, 3));
 console.log(sumNumbersBtn(-7, 7));
+console.log(sumNumbersBtn(1, 10));
