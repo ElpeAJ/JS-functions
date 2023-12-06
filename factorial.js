@@ -7,11 +7,11 @@ function factorial(numGiven) {
     for (let i = numGiven; i >= 1; i--) {
       factorial *= i;
     }
+    console.log(`${numGiven} ! = `);
+    return factorial;
   } else {
     return `${numGiven} is not greater than 1`;
   }
-  console.log(`${numGiven} ! = `);
-  return factorial;
 }
 
 console.log(factorial(6));
