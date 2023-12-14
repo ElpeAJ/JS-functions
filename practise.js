@@ -66,13 +66,58 @@ console.log(countryIs("Nigeria"));
 // let ran = Math.random();
 // ran = ran.toString()
 // console.log(ran.slice(2, 10, 1));
-let ran = Math.random();
-console.log(ran);
+// let ran = Math.random();
+// console.log(ran);
 
-ran = ran * 100000;
-console.log(ran);
+// ran = ran * 100000;
+// console.log(ran);
 
-ran = Math.floor(ran);
-console.log(ran);
+// ran = Math.floor(ran);
+// console.log(ran);
 
 // console.log(value);
+
+let day = "Tuesday";
+switch (day) {
+  case "Monday":
+    console.log("Start of the week");
+    break;
+  case "Tuesday":
+    console.log("second day of the week");
+    break;
+  default:
+    console.log("Some other");
+}
+
+function addNumbers(a, b) {
+  return a + b;
+}
+
+let result = addNumbers(5);
+console.log(result);
+
+let numbers = [1, 4, 9];
+let squares = numbers.map(function (num) {
+  return num * num;
+});
+
+console.log(squares);
+
+let fruits = ["apple", "orange", "banana"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
+
+let person = {
+  name: "Elpe",
+  age: 26,
+  canSpeak: true,
+  nation: "Ghana",
+  getInfo() {
+    console.log(`${person.name}`);
+    return `${person.name}`;
+  },
+};
+
+console.log(person.getInfo());
